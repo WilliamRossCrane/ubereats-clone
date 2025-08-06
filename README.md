@@ -93,6 +93,7 @@ EXPO_PUBLIC_SERVER_URL=https://ubereats-clone.dev/
 
 npx expo start
 
+```
 ---
 
 ## 📺 Course Link
