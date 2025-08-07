@@ -2,7 +2,7 @@
 
 This project is a fully functional **UberEats Clone** mobile app developed using **React Native** and **Appwrite**, built during the [JavaScript Mastery](https://jsmastery.pro/) course. It showcases a production-ready architecture designed for seamless food delivery experiences on both iOS and Android.
 
-Created and taught by Adrian Hajdin at JavaScript Mastery, this project covers the entire lifecycle of a scalable mobile app — from authentication and search filtering to cart functionality and database architecture.
+Created and taught by Adrian Hajdin at JavaScript Mastery, this project covers the entire lifecycle of a scalable mobile app, from authentication and search filtering to cart functionality and database architecture.
 
 ![React Native](https://img.shields.io/badge/-React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Expo](https://img.shields.io/badge/-Expo-000020?style=flat-square&logo=expo&logoColor=white)
@@ -22,7 +22,6 @@ Created and taught by Adrian Hajdin at JavaScript Mastery, this project covers t
 - **Zustand** – Lightweight global state management
 - **Sentry** – Error and performance monitoring
 - **Tailwind CSS (NativeWind)** – Utility-first styling for mobile
-- **WebStorm** – IDE used for development
 
 ---
 
