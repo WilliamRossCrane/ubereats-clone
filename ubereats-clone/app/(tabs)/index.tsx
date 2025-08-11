@@ -24,7 +24,7 @@ export default function Index() {
             <View>
               <Pressable
                 className={cn(
-                  "offer-card",
+                  "offer-card h-44", // slightly taller
                   isEven ? "flex-row-reverse" : "flex-row"
                 )}
                 style={{ backgroundColor: item.color }}
@@ -35,23 +35,30 @@ export default function Index() {
                     <View className="h-full w-1/2">
                       <Image
                         source={item.image}
-                        className="size-full"
-                        resizeMode="contain"
+                        className="w-full h-full"
+                        resizeMode="cover"
                       />
                     </View>
 
                     <View
                       className={cn(
-                        "offer-card_info",
+                        "offer-card__info",
                         isEven ? "pl-10" : "pr-10"
                       )}
                     >
-                      <Text className="h1-bold text-white leading-tight">
+                      <Text
+                        className="h1-bold text-white leading-tight"
+                        style={{
+                          fontSize: 20, // slightly smaller than your original
+                          flexShrink: 1,
+                          flexWrap: "wrap",
+                        }}
+                      >
                         {item.title}
                       </Text>
                       <Image
                         source={images.arrowRight}
-                        className="size-10"
+                        className="size-10 mt-2"
                         resizeMode="contain"
                         tintColor="#ffffff"
                       />
