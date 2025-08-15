@@ -13,7 +13,12 @@ export const appwriteConfig = {
   projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
   platform: "com.company.ubereats-clone",
   databaseId: "689324fd000686f0d6a9",
+  bucketId: "689ed8440000db1c38f4",
   userCollectionId: "689325a400186af8c08e",
+  categoriesCollectionId: "689eb2af00186885850e",
+  menuCollectionId: "689eb6d80021592290c1",
+  customisationsCollectionId: "689ece6a00336f5a2472",
+  menuCustomisationsCollectionId: "689ed36a003094b7e570"
 };
 
 export const client = new Client();
