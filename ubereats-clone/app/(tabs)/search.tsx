@@ -1,11 +1,13 @@
-import { View, Text } from "react-native";
+import { Text } from "react-native";
 import React from "react";
+import { SafeAreaView } from "react-native-safe-area-context";
+import seed from "@/lib/seed";
 
 const search = () => {
   return (
-    <View>
-      <Text>search</Text>
-    </View>
+    <SafeAreaView>
+      <Text>Search</Text>
+    </SafeAreaView>
   );
 };
 
