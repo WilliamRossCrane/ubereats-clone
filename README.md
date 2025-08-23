@@ -1,5 +1,9 @@
 # 🍔 Full Stack UberEats Clone
 
+![Project Status](https://img.shields.io/badge/status-initial%20development%20complete-brightgreen)
+
+⚡ **Project Status:** Initial development complete (pending minor bugs). Ready for future development.
+
 This project is a fully functional **UberEats Clone** mobile app developed using **React Native** and **Appwrite**, built during the [JavaScript Mastery](https://jsmastery.pro/) course. It showcases a production-ready architecture designed for seamless food delivery experiences on both iOS and Android.
 
 Created and taught by Adrian Hajdin at JavaScript Mastery, this project covers the entire lifecycle of a scalable mobile app, from authentication and search filtering to cart functionality and database architecture.
@@ -11,6 +15,22 @@ Created and taught by Adrian Hajdin at JavaScript Mastery, this project covers t
 ![Zustand](https://img.shields.io/badge/-Zustand-000000?style=flat-square)
 ![Sentry](https://img.shields.io/badge/-Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+---
+
+## 🚧 Future Development
+
+The initial release of this UberEats Clone is complete, and the project is now ready for future enhancements. Planned improvements include:
+
+- **Real Stripe Payments & Payment Processing**  
+  Integrate a secure payment system for orders. A helpful guide from JavaScript Mastery on adding payments in React Native can be found here:  
+  🔗 [Full Stack React Native Payments Tutorial](https://www.youtube.com/watch?v=G1d_rS5qF24)
+
+- **Menu Item Detail Page**  
+  Create a dedicated page for each food item to show detailed descriptions, images, and customization options.
+
+- **Profile Screen**  
+  Allow users to view and edit their account information, change passwords, and log out of the app.
 
 ---
 
